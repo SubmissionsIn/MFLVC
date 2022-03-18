@@ -1,3 +1,5 @@
+# Accepted by CVPR 2022, BibTex and Code will be added soon.
+
 #To test the trained model, run:
 python test.py
 
