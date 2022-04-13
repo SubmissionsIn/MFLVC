@@ -1,5 +1,8 @@
 # Accepted by CVPR 2022 (oral), Code will be added soon.
 
+# ArXiv
+  https://arxiv.org/abs/2106.11193
+
 #To test the trained model, run:
   python test.py
 
