@@ -1,6 +1,6 @@
-# Accepted by CVPR 2022 (oral), Code will be added soon.
+# Accepted by CVPR 2022 (oral).
 
-# ArXiv
+# ArXiv:
   https://arxiv.org/pdf/2106.11193.pdf
 
 #To test the trained model, run:
