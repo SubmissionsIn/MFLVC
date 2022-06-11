@@ -14,7 +14,8 @@
 # citation
 @InProceedings{Xu_2022_CVPR,
     author    = {Xu, Jie and Tang, Huayi and Ren, Yazhou and Peng, Liang and Zhu, Xiaofeng and He, Lifang},
-    title     = {Multi-level Feature Learning for Contrastive Multi-view Clustering},
+    title     = {Multi-Level Feature Learning for Contrastive Multi-View Clustering},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year      = {2022}
+    year      = {2022},
+    pages     = {16051-16060}
 }
