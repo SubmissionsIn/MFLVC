@@ -1,15 +1,15 @@
 # Accepted by CVPR 2022 (oral).
 
-# ArXiv:
-  https://arxiv.org/pdf/2106.11193.pdf
+# Paper:
+  https://openaccess.thecvf.com/content/CVPR2022/html/Xu_Multi-Level_Feature_Learning_for_Contrastive_Multi-View_Clustering_CVPR_2022_paper.html
 
-#To test the trained model, run:
+# To test the trained model, run:
   python test.py
 
-#To train a new model, run:
+# To train a new model, run:
   python train.py
 
-#The experiments are carried out on a Windows PC with NVIDIA GeForce RTX 3090 GPU (24.0GB caches) and 11th Gen Intel(R) Core(TM) i5-11600KF @ 3.90GHz, 16.0GB RAM.
+# The experiments are carried out on a Windows PC with NVIDIA GeForce RTX 3090 GPU (24.0GB caches) and 11th Gen Intel(R) Core(TM) i5-11600KF @ 3.90GHz, 16.0GB RAM.
 
 # citation
 @InProceedings{Xu_2022_CVPR,
