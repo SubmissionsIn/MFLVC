@@ -50,6 +50,7 @@ class Network(nn.Module):
 
         self.feature_contrastive_module = nn.Sequential(
             nn.Linear(feature_dim, high_feature_dim),
+            # Varying the number of layers of W can obtain the representations with different shapes.
         )
         self.label_contrastive_module = nn.Sequential(
             nn.Linear(feature_dim, class_num),
