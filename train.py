@@ -69,12 +69,12 @@ if args.dataset == "Caltech-5V":
 def setup_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
-    np.random.seed(seed)
-    random.seed(seed)
+#     np.random.seed(seed)
+#     random.seed(seed)
     torch.backends.cudnn.deterministic = True
 
 
-setup_seed(seed)
+# setup_seed(seed)
 
 
 dataset, dims, view, data_size, class_num = load_data(args.dataset)
@@ -209,7 +209,7 @@ if not os.path.exists('./models'):
 T = 1
 for i in range(T):
     print("ROUND:{}".format(i+1))
-
+    setup_seed(seed)
     model = Network(view, dims, args.feature_dim, args.high_feature_dim, class_num, device)
     print(model)
     model = model.to(device)
