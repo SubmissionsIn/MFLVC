@@ -1,4 +1,4 @@
-# Accepted by CVPR 2022 (oral).
+# Accepted by CVPR 2022.
 
 # Paper:
   https://openaccess.thecvf.com/content/CVPR2022/html/Xu_Multi-Level_Feature_Learning_for_Contrastive_Multi-View_Clustering_CVPR_2022_paper.html
